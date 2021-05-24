@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.topbar {
+  background-color: #386150;
+  padding-bottom: 1rem;
+}
+
+
+.topbar .search {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10rem;
+  padding-top: 0.5rem;
+  text-decoration: none;
+}
+
+.topbar .search span {
+  text-decoration: none;
+  font-family: Montserrat, Helvetica, Arial, Verdana, sans-serif;
+  color: seashell;
+  text-align: center;
+  padding-top: 0.25rem;
+  padding-left: 0.4rem;
+  transition: all 800ms;
+  position: relative;
+}
+
+.topbar .search span:hover {
+  font-weight: 800;
+  color: silver;
+}
+
+.topbar .search span::after {
+  content: " ";
+  opacity: 0;
+  transition: all 800ms;
+  border-bottom: 1px solid silver;
+  position: absolute;
+  width: 0;
+  bottom: 1px;
+  left: 0;
+}
+
+
+.topbar .search span:hover::after {
+    content: " ";
+    opacity: 1;
+  width: 100%;
+   
+}
+
+.containerHead {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+.menuItems {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10rem;
+
+}
+
+.menuItems a {
+    text-decoration: none;
+    font-family: Montserrat, Helvetica, Arial, Verdana, sans-serif;
+    padding: 1rem;
+    color: #6C7A74;
+    font-weight: 500;
+    transition: all 800ms;
+    position: relative;
+}
+
+.menuItems a:hover {
+    font-weight: 800;
+    color: #65AD8F;
+  }
+  
+  .menuItems a::after {
+    content: " ";
+    opacity: 0;
+    transition: all 800ms;
+    border-bottom: 1px solid #65AD8F;
+    position: absolute;
+    width: 0;
+    bottom: 1px;
+    left: 0;
+  }
+  
+  
+  .menuItems a:hover::after {
+      content: " ";
+      opacity: 1;
+      width: 100%;
+     
+  }
+
+   
+.title strong {
+      color: #386150;
+  }
+
+
+.menu {
+    text-decoration: none;
+    font-family: Montserrat, Helvetica, Arial, Verdana, sans-serif;
+    
+}
+.linkinstagram {
+    color: #386150;
+    text-decoration: none;
+    
+}
+
+
+
+main .container {
+    padding: 5rem 8rem 0rem 8rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+}
+
+.description {
+    background-color: rgba(56, 97, 80, 0.15);
+    width: 300px;
+    
+}
+
+.description a {
+    text-decoration: none;
+    font-family: Montserrat, Helvetica, Arial, Verdana, sans-serif;
+    color: #386150;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    
+}
+
+main img:hover {
+   opacity: 0.6;
+}
+
+.pages {
+    
+    display: flex;
+    justify-content: center;
+
+}
+
+.pages a {
+    text-decoration: none;
+    font-family: Montserrat, Helvetica, Arial, Verdana, sans-serif;
+    font-size: 20px;
+    color: #386150;
+    padding: 0.5rem;
+}
+
+.pages a:hover {
+    border-bottom: solid #386150;
+}
+footer {
+    
+        background-color: #386150;
+        padding-top: 2rem;
+      
+      
+}
+
+
+
+
+  
+
+
+
+
